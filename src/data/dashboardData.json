@@ -1,0 +1,162 @@
+{
+  "categories": [
+    {
+      "id": "cspm",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "cloud-accounts",
+          "name": "Cloud Accounts",
+          "text": "Connected (2)\nNot Connected (2)",
+          "type": "chart"
+        },
+        {
+          "id": "cloud-account-risk",
+          "name": "Cloud Account Risk Assessment",
+          "text": "Failed (1689)\nWarning (681)\nNot available (36)\nPassed (7253)",
+          "type": "chart"
+        },
+        {
+          "id": "sample-cspm-widget",
+          "name": "Sample CSPM Widget",
+          "text": "This is a sample widget with random text for CSPM category. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "type": "custom"
+        }
+      ]
+    },
+    {
+      "id": "cwpp",
+      "name": "CWPP Dashboard",
+      "widgets": [
+        {
+          "id": "top-5-namespace-alerts",
+          "name": "Top 5 Namespace Specific Alerts",
+          "text": "No Graph data available!",
+          "type": "graph"
+        },
+        {
+          "id": "workload-alerts",
+          "name": "Workload Alerts",
+          "text": "No Graph data available!",
+          "type": "graph"
+        },
+        {
+          "id": "sample-cwpp-widget",
+          "name": "Sample CWPP Widget",
+          "text": "Random text for CWPP Dashboard: Monitoring workload performance and security metrics across multiple clusters.",
+          "type": "custom"
+        }
+      ]
+    },
+    {
+      "id": "registry-scan",
+      "name": "Registry Scan",
+      "widgets": [
+        {
+          "id": "image-risk-assessment",
+          "name": "Image Risk Assessment",
+          "text": "1470 Total Vulnerabilities\nCritical (9)\nHigh (150)",
+          "type": "progress"
+        },
+        {
+          "id": "image-security-issues",
+          "name": "Image Security Issues",
+          "text": "2 Total Images\nCritical (2)\nHigh (2)",
+          "type": "progress"
+        },
+        {
+          "id": "sample-registry-widget",
+          "name": "Sample Registry Widget",
+          "text": "Random text for Registry Scan: Automated scanning of container images for vulnerabilities and compliance violations.",
+          "type": "custom"
+        }
+      ]
+    }
+  ],
+  "availableWidgets": [
+    {
+      "id": "cloud-accounts",
+      "name": "Cloud Accounts",
+      "defaultText": "Cloud accounts connection status",
+      "category": "cspm"
+    },
+    {
+      "id": "cloud-account-risk",
+      "name": "Cloud Account Risk Assessment",
+      "defaultText": "Risk assessment overview",
+      "category": "cspm"
+    },
+    {
+      "id": "top-5-namespace-alerts",
+      "name": "Top 5 Namespace Specific Alerts",
+      "defaultText": "Namespace alerts data",
+      "category": "cwpp"
+    },
+    {
+      "id": "workload-alerts",
+      "name": "Workload Alerts",
+      "defaultText": "Workload monitoring alerts",
+      "category": "cwpp"
+    },
+    {
+      "id": "image-risk-assessment",
+      "name": "Image Risk Assessment",
+      "defaultText": "Container image vulnerabilities",
+      "category": "registry-scan"
+    },
+    {
+      "id": "image-security-issues",
+      "name": "Image Security Issues",
+      "defaultText": "Security issues in images",
+      "category": "registry-scan"
+    },
+    {
+      "id": "compliance-overview",
+      "name": "Compliance Overview",
+      "defaultText": "Compliance status overview",
+      "category": "cspm"
+    },
+    {
+      "id": "threat-detection",
+      "name": "Threat Detection",
+      "defaultText": "Real-time threat monitoring",
+      "category": "cwpp"
+    },
+    {
+      "id": "policy-violations",
+      "name": "Policy Violations",
+      "defaultText": "Security policy violations tracking",
+      "category": "registry-scan"
+    },
+    {
+      "id": "network-security",
+      "name": "Network Security",
+      "defaultText": "Network security monitoring and alerts",
+      "category": "cspm"
+    },
+    {
+      "id": "container-runtime",
+      "name": "Container Runtime Security",
+      "defaultText": "Runtime security for containers",
+      "category": "cwpp"
+    },
+    {
+      "id": "vulnerability-scan",
+      "name": "Vulnerability Scanner",
+      "defaultText": "Continuous vulnerability scanning results",
+      "category": "registry-scan"
+    },
+    {
+      "id": "access-control",
+      "name": "Access Control",
+      "defaultText": "Identity and access management status",
+      "category": "cspm"
+    },
+    {
+      "id": "kubernetes-security",
+      "name": "Kubernetes Security",
+      "defaultText": "K8s cluster security monitoring",
+      "category": "cwpp"
+    }
+  ]
+}
